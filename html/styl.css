@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    background-color: bisque;
+    line-height: 1.6;
+
+}
+header{
+    margin: 20px;
+    text-align: center;
+}
+header h1 {
+    margin: 20px 0px;
+    color:rgb(43, 37, 37);
+}
+/*#a {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+#a h2 {
+    color: #2c3e50;
+}
+
+#a p {
+    font-size: 1.1em;
+    color: #34495e;
+    margin-bottom: 20px;
+}
+
+.image-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
+    padding: 10px;
+}
+
+.image-gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.image-gallery img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}*/
+
+    /* Style général du corps de la page */
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: bisque;
+        color: #333;
+    }
+
+    /* Style de l'en-tête */
+    header {
+        background-color: #10375C;
+        color: white;
+        padding: 20px;
+        text-align: center;
+    }
+
+    header h1 {
+        margin: 0;
+        font-size: 2.5em;
+        color: rgb(230, 246, 11);
+    }
+
+    header h3 {
+        margin: 10px 0 0;
+        font-weight: normal;
+    }
+
+    /* Mise en forme de la section principale */
+    .carte {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    /* Style pour chaque section */
+    section {
+        background-color: cornsilk;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        max-width: 600px;
+        width: 100%;
+    }
+
+    section h2 {
+        color: #2c3e50;
+        font-size: 1.8em;
+        margin-top: 0;
+    }
+
+    section p {
+        font-size: 1.1em;
+        line-height: 1.6;
+        margin-bottom: 15px;
+        color: #555;
+    }
+
+    /* Galerie d'images */
+    section img {
+        width: 100%;
+        border-radius: 8px;
+        margin-bottom: 10px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    section img:hover {
+        transform: scale(1.05);
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    }
+
+    /* Adaptabilité pour les petits écrans */
+    @media (max-width: 768px) {
+        .carte {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        section {
+            max-width: 100%;
+        }
+    }
+
